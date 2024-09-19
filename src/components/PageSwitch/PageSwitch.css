@@ -1,0 +1,37 @@
+.page-switch {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: center;
+}
+
+.page-switch__input {
+  padding: 4px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  width: 35px;
+  border-radius: 4px;
+  border: 1px solid #79747E;
+}
+
+.page-switch__text {
+  font-size: 14px;
+  line-height: 22px;
+  color: #49454F;
+}
+
+.page-switch__button {
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  border: none;
+  background-color: #DCD8E0;
+  padding: 7.5px;
+  min-width: 24px;
+}
+
+.page-switch__button--blue {
+  background-color: #4680B0;
+}

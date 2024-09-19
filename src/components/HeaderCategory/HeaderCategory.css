@@ -1,0 +1,32 @@
+.header__wrapper {
+    padding: 8px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__buttons-container {
+    display: flex;
+    gap: 4px;
+}
+
+.header__button {
+    display: flex;
+    gap: 3px;
+}
+
+.header__button-image {
+    width: 16px;
+    height: 16px;
+}
+
+.btn--small {
+    min-width: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 12px;
+    font-size: 10px;
+    line-height: 15px;
+}
