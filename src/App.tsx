@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { MainPage } from './pages/MainPage/MainPage';
 import { FC } from 'react';
 import { TasksPage } from './pages/TasksPage/TasksPage';
