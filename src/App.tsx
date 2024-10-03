@@ -20,18 +20,19 @@ import { ArrivalItemsInfo } from './pages/ProductionPage/ProductionCategory/Invo
 
 export const App: FC = () => {
   return (
-    <BrowserRouter>
+    
+    <>
       <Routes>
         <Route path="/" element={<MainPage />}/>
         <Route path="/tasks" element={<TasksPage />}/>
         <Route path="/tasks/production" element={<ProductionPage />}/>
-        
+
         <Route path="/tasks/production/inventory" element={<Inventory />}/>
         <Route path="/tasks/production/invoices-arrival" element={<InvoicesArrival />}/>
         <Route path="/tasks/production/invoices-arrival/search" element={<InvoicesExpenseSearch />}/>
         <Route path="/tasks/production/invoices-arrival/:id" element={<InvoicesArrivalItems />}/>
         <Route path="/tasks/production/invoices-arrival/:id/:id" element={<ArrivalItemsInfo />}/>
-        
+
         <Route path="/tasks/production/invoices-expense" element={<InvoicesExpense />}/>
         <Route path="/tasks/production/invoices-expense/search" element={<InvoicesExpenseSearch />}/>
         <Route path="/tasks/production/invoices-expense/:id" element={<InvoicesExpenseItems />}/>
@@ -39,11 +40,12 @@ export const App: FC = () => {
 
         <Route path="/tasks/production/limit-cards" element={<LimitCards />}/>
         <Route path="/tasks/production/nomenclature" element={<Nomenclature />}/>
-        
+
         <Route path="/options" element={<OptionsPage />}/>
         <Route path="/scan" element={<ScanPage />}/>
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </>
+
   );
 }
