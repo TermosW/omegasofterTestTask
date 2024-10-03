@@ -2,7 +2,7 @@
   "name": "testtask",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://TermosW.github.io/omegasofterTestTask",
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
